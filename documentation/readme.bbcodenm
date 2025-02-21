@@ -1,0 +1,14 @@
+[size=6]Map Lock[/size]
+
+This mod saves your map spot when you close it, so it reopens right where you left off. There's a game bug, though: it only saves if you zoom or add a checkpoint. Just drop a checkpoint at your spot (it saves the map view, not the checkpoint). Install with Vortex. Drop feedback in the comments!
+
+[size=5]Development Resources[/size]
+[list]
+[*] [url=https://www.nexusmods.com/kingdomcomedeliverance2/mods/459]VS Code Lua Runner[/url]
+[*] [url=https://warhorse.nexusmods.com/]Lua API from KCD 1[/url]
+[*] Lua examples from KCD 2 game files; extract the PAK files, open with your favorite IDE, and search globally for Lua files.
+[*] [url=https://benjaminfoo.github.io/Architect/constructions]Examples of advanced Lua features[/url]
+[*] [url=https://github.com/benjaminfoo/kcd_coding_guide]KCD Coding Guide[/url]
+[*] https://www.cryengine.com/docs/static/engines/cryengine-3/categories/1638401/pages/1605718
+[*] https://www.cryengine.com/docs/static/engines/cryengine-3/categories/1638401/pages/15011742 https://www.nexusmods.com/kingdomcomedeliverance/mods/864
+[/list]
