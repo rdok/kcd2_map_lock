@@ -2,7 +2,7 @@
 
 #### v1.0.1 21-Feb-25
 
-- fix: Mod conflicted with other mods due to duplicate file names.
+- fix: Mod conflict due to Lua file names not being unique across different mods.
 
 #### v1.0.0 21-Feb-25
 
