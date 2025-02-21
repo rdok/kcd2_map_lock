@@ -56,15 +56,23 @@ const cleanBuildDir = () => {
 const prepareBuild = (debugFlag, hardcoreFlag) => {
   cpSync(srcDir, tempDir, { recursive: true });
 
-  const luaFile = join(tempDir, "Data", "Scripts", "Startup", "map_lock_main.lua")
+  const luaFile = join(
+    tempDir,
+    "Data",
+    "Scripts",
+    "Startup",
+    "map_lock_main.lua",
+  );
 
   if (!existsSync(luaFile)) {
     console.error(`ERROR: '${luaFile}' not found.`);
     process.exit(1);
   }
 
-  const content = readFileSync(luaFile, "utf8")
-    .replace(/IS_DEBUG = (true|false)/, `IS_DEBUG = ${debugFlag}`)
+  const content = readFileSync(luaFile, "utf8").replace(
+    /IS_DEBUG = (true|false)/,
+    `IS_DEBUG = ${debugFlag}`,
+  );
   writeFileSync(luaFile, content, "utf8");
 };
 
@@ -109,14 +117,14 @@ const packMod = (outputName) => {
   rmSync(tempDir, { recursive: true, force: true });
 
   console.log(`Built ${outputName} mod: ${outputZip}`);
-}
+};
 
 const build = () => {
   console.log("Building...");
   cleanBuildDir();
   prepareBuild(false, true);
   packData();
-  packMod(`${modName}`)
+  packMod(`${modName}`);
 };
 
 const deployDev = () => {
@@ -151,8 +159,8 @@ const deployDev = () => {
 
   const modOrder = existsSync(modOrderPath)
     ? readFileSync(modOrderPath, "utf8")
-      .split(/\r?\n/)
-      .map((line) => line.trim())
+        .split(/\r?\n/)
+        .map((line) => line.trim())
     : [];
   if (!modOrder.includes(modName)) {
     modOrder.push(modName);

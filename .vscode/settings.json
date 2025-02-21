@@ -1,6 +1,3 @@
 {
-    "Lua.diagnostics.globals": [
-        "Script",
-        "UIAction"
-    ]
+  "Lua.diagnostics.globals": ["Script", "UIAction"]
 }
