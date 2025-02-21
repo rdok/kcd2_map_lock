@@ -5,7 +5,7 @@
 
 This mod saves your map spot when you close it, so it reopens right where you left off. There’s a game bug, though: it only saves if you zoom or add a checkpoint. Just drop a checkpoint at your spot (it saves the map view, not the checkpoint). Install with Vortex. Drop feedback in the comments!
 
-[![Showcase](https://github.com/rdok/kcd2_adaptive_hud/blob/main/documentation/showcase.gif?raw=true)](https://www.nexusmods.com/kingdomcomedeliverance2/mods/831)
+[![Showcase](https://github.com/rdok/kcd2_map_lock/blob/main/documentation/showcase.gif?raw=true)](https://www.nexusmods.com/kingdomcomedeliverance2/mods/831)
 
 ***
 
