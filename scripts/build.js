@@ -56,7 +56,8 @@ const cleanBuildDir = () => {
 const prepareBuild = (debugFlag, hardcoreFlag) => {
   cpSync(srcDir, tempDir, { recursive: true });
 
-  const luaFile = join(tempDir, "Data", "Scripts", "Startup", "main.lua");
+  const luaFile = join(tempDir, "Data", "Scripts", "Startup", "map_lock_main.lua")
+
   if (!existsSync(luaFile)) {
     console.error(`ERROR: '${luaFile}' not found.`);
     process.exit(1);
