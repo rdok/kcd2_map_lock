@@ -23,7 +23,7 @@ function mapLock:eventDispatched(elementName, instanceID, eventName)
         Log.info("getPosY: " .. tostring(posY))
 
         if eventName == 'OnPlayAudio' then
-            Log.info("Caching positions")
+            Log.info("Caching positions.")
             mapLock.ZoomLevel = zoomLevel
             mapLock.PosX = posX
             mapLock.PosY = posY
