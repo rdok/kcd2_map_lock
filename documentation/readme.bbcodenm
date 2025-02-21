@@ -1,14 +1,21 @@
 [size=6]Map Lock[/size]
 
+[url=https://www.nexusmods.com/kingdomcomedeliverance2/mods/831][img]https://img.shields.io/badge/Mod-Map%20Lock%20-bf4848?style=flat-square&logo=nexusmods[/img][/url] [url=https://github.com/rdok/kcd2_map_lock][img]https://img.shields.io/badge/Open-Source-2ea44f?style=flat-square&logo=github[/img][/url]
+
+
 This mod saves your map spot when you close it, so it reopens right where you left off. There's a game bug, though: it only saves if you zoom or add a checkpoint. Just drop a checkpoint at your spot (it saves the map view, not the checkpoint). Install with Vortex. Drop feedback in the comments!
 
-[size=5]Development Resources[/size]
+[url=https://www.nexusmods.com/kingdomcomedeliverance2/mods/831][img]https://github.com/rdok/kcd2_adaptive_hud/blob/main/documentation/showcase.gif?raw=true[/img][/url]
+
+
+[size=4]Development Resources[/size]
 [list]
 [*] [url=https://www.nexusmods.com/kingdomcomedeliverance2/mods/459]VS Code Lua Runner[/url]
 [*] [url=https://warhorse.nexusmods.com/]Lua API from KCD 1[/url]
 [*] Lua examples from KCD 2 game files; extract the PAK files, open with your favorite IDE, and search globally for Lua files.
 [*] [url=https://benjaminfoo.github.io/Architect/constructions]Examples of advanced Lua features[/url]
 [*] [url=https://github.com/benjaminfoo/kcd_coding_guide]KCD Coding Guide[/url]
-[*] https://www.cryengine.com/docs/static/engines/cryengine-3/categories/1638401/pages/1605718
-[*] https://www.cryengine.com/docs/static/engines/cryengine-3/categories/1638401/pages/15011742 https://www.nexusmods.com/kingdomcomedeliverance/mods/864
+[*] [url=https://www.cryengine.com/docs/static/engines/cryengine-3/categories/1638401/pages/1605718]Flash UI System[/url]
+[*] [url=https://www.cryengine.com/docs/static/engines/cryengine-3/categories/1638401/pages/15011742]Flash UI Lua functions[/url]
+[*] [url=https://www.nexusmods.com/kingdomcomedeliverance/mods/864]Official Kingdom Come Deliverance Modding Tools[/url]
 [/list]
