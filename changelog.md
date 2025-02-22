@@ -1,5 +1,9 @@
 ## Changelog
 
+#### v1.0.3 22-Feb-25
+
+- fix: Potential solution for a reported game freeze by updating the map location on unload instead of load. [Source](https://www.nexusmods.com/kingdomcomedeliverance2/mods/831?tab=posts&jump_to_comment=150404516)
+
 #### v1.0.2 22-Feb-25
 
 - fix: Remove stale logging from production build.

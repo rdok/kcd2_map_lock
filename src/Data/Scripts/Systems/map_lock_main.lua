@@ -30,7 +30,7 @@ function mapLock:eventDispatched(elementName, instanceID, eventName)
             return
         end
 
-        if eventName ~= 'OnInit' or self.ZoomLevel == nil then return end
+        if eventName ~= 'OnUnload' or self.ZoomLevel == nil then return end
 
         Log.info(string.format(
             "Setting user config: ZoomLevel: %s, PosX: %s, PosY: %s",

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <kcd_mod>
     <info>
-        <name>MapLock</name>
-        <modid>maplock</modid>
+        <name>map_lock</name>
+        <modid>map_lock</modid>
         <description>Saves your map's zoom and position when closed, reopening where you left off—just add a checkpoint due to a game bug.</description>
         <author>Rizarttt</author>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
         <created_on>21.02.2025</created_on>
     </info>
 </kcd_mod>

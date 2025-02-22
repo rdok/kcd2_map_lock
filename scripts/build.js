@@ -159,13 +159,15 @@ const deployDev = () => {
 
   const modOrder = existsSync(modOrderPath)
     ? readFileSync(modOrderPath, "utf8")
-        .split(/\r?\n/)
-        .map((line) => line.trim())
+      .split(/\r?\n/)
+      .map((line) => line.trim())
     : [];
   if (!modOrder.includes(modName)) {
     modOrder.push(modName);
     writeFileSync(modOrderPath, modOrder.join("\n"));
   }
+
+  rmSync(tempDir, { recursive: true, force: true });
 
   console.log(`Mod deployed for development: ${steamModPath}`);
 };
