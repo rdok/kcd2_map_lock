@@ -5,7 +5,7 @@
         <modid>maplock</modid>
         <description>Saves your map's zoom and position when closed, reopening where you left off—just add a checkpoint due to a game bug.</description>
         <author>Rizarttt</author>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
         <created_on>21.02.2025</created_on>
     </info>
 </kcd_mod>

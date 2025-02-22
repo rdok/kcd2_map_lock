@@ -1,5 +1,9 @@
 ## Changelog
 
+#### v1.0.2 22-Feb-25
+
+- fix: Remove stale logging from production build.
+
 #### v1.0.1 21-Feb-25
 
 - fix: Mod conflict due to Lua file names not being unique across different mods.
